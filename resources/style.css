@@ -14,15 +14,10 @@ li {
     text-transform: uppercase;
 }
 
-nav {
-    padding-left: 60px;
-    padding-right: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 10vh;
+/* nav {
+
     background-color: transparent;
-}
+} */
 
 .logo {
     font-family: 'Montserrat', sans-serif;
@@ -120,7 +115,7 @@ nav {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
 }
 
 .column {
@@ -144,8 +139,15 @@ nav {
     text-align: left;
 }
 
+.right {
+    background-image: url(/resources/images/mainimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .right__column {
-    background-image: url();
+   
+
 }
 
 .homepage_text {
