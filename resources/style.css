@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: white;
+}
+
+li {
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+nav {
+    padding-left: 60px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 10vh;
+    background-color: white;
+}
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    height: 29px;
+    width: 91px;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+
+.burger {
+    display: block;
+}   
+
+.burger div {
+    height: 5px;
+    background-color: black;
+    margin: 5px;
+    transition: all 0.4s ease;
+}
+
+.line1, .line3 {
+    width: 35px;
+    border-radius: 65em;
+}
+
+.line2 {
+    width: 45px;
+    border-radius: 55em;
+}
+
+.nav-links {
+    display: none;
+}
+
+.nav-links-mobile {
+    position: absolute;
+    width: 100%;
+    height: 90vh;
+    top: 8vh;
+    background: white;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    z-index: 9999999;
+}
+
+.nav-links-mobile a {
+    color: black;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.nav-links-mobile li {
+    opacity: 1;
+}
+
+/* Animations */
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+/* HERO SECTION */
+
+.hero {
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.inner_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+}
+
+.col {
+    width: 10%;
+}
+
+.col-2 {
+    width: 100%;
+}
+
+
+.homepage_text {
+    color: black;
+    font-family: Montserrat, sans-serif;
+    font-size: 110px;
+    font-weight: 900;
+    line-height: 100px;
+}
+
+.email_text {
+    justify-self: flex-start;
+    color: black;
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    transform: rotate(-90deg);
+}
+
+
+.homepage_subtext {
+    color: black;
+    font-family: Montserrat, sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 100px;
+}
+
+
+
+
+
+
+
+
