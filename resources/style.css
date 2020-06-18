@@ -99,12 +99,11 @@ nav {
 /* HERO SECTION */
 
 .hero {
-    height: 90vh;
+    height: 85vh;
     display: grid;
     grid-template-columns: repeat(12, [col-start] 1fr);
     grid-gap: 10px;
     grid-area: content;
-    /* position: relative; */
 }
 
 .hero > * {
@@ -237,7 +236,8 @@ hr {
 
 /* MAIN SECTION */
 .image__gallery {
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
   display: flex;
   display: -webkit-flex;
   display: -moz-box;
@@ -295,6 +295,7 @@ hr {
   position: relative;
   overflow: hidden;
   height: 100%;
+  margin-bottom: 40px;
 }
 
 .home__column--item img {
@@ -310,11 +311,21 @@ hr {
   width: calc((100% - 40px) * 0.565);
   padding: 30px;
   margin-top: 100px;
+  /* position: relative; */
 }
 
 .home__column--item .home__column--item--second {
   padding-top: 1230.74%;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
+}
+
+.home__column--item .home__column--item--third {
+  width: 82%;
+  padding-top: 58.4%;
+}
+
+.home__column--item .home__column--item--third img {
+  height: 60%;
 }
 
 .home__column--content {
