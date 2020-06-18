@@ -285,7 +285,7 @@ hr {
 }
 
 .home__column--first {
-  width: calc((100% - 40px) * 0.435);
+  width: calc((100% - 0px) * 0.435);
   padding: 30px;
   position: relative;
 }
@@ -311,7 +311,6 @@ hr {
   width: calc((100% - 40px) * 0.565);
   padding: 30px;
   margin-top: 100px;
-  /* position: relative; */
 }
 
 .home__column--item .home__column--item--second {
