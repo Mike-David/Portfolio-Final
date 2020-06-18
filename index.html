@@ -14,6 +14,7 @@
     </head>
     
 <body>
+  <!-- Homepage -->
 <section>
   <div class="hero">
     <!--nav bar-->
@@ -26,11 +27,17 @@
           </div>
           <div class="column">
             <div class="right__column">
-              <ul class="nav-links">
+             <div>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+             </div> 
+
+              <!-- <ul class="nav-links">
                 <li><a href="#">About</a></li>
                   <li><a href="#">Work</a></i></li>
                 <li><a href="#">Contact</a></li>
-              </ul>
+              </ul> -->
             </div>
           </div>
         </div>
@@ -39,10 +46,11 @@
       <div class="text__container">
         <h2 class="homepage_text">Hello, I'm Mike.</h2>
           <h2 class="homepage_text">Developer and designer for a</h2>
-          <h2 class="homepage_text">digital-first world<span class="period">.</span></h2>     
-      </div>
+        <h2 class="homepage_text">digital-first world<span class="period">.</span></h2>     
+      </div> 
+      <!-- scroll arrow -->
       <div class="image_container">
-              <a class="link" href="#">
+        <a class="link" href="#">
           <span class="link__arrow">
             <span></span>
             <span></span>
@@ -50,15 +58,33 @@
           <span class="link__line"></span>
           <span class="link__text">Scroll</span>
         </a>
-        
       </div>
 
-
-      
-
-  </div> 
-
+      <!-- <div class="slider"></div> -->
+    </div> 
 </section>
+<!-- End Homepage -->
+
+<!-- Content -->
+<main>
+    <section class="image__gallery">
+        <div class="home__column home__column--first">
+          <div class="home__column--item home__column--item--first">
+            <img src="/resources/images/mainimage.jpg" />
+
+          </div>
+        </div>
+    </section>
+</main>
+
+<!-- End Content -->
+
+<!-- CDN/JS-->
   <script src="resources/main.js"></script>    
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/TextPlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/ScrollToPlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/ScrollTrigger.min.js"></script>
+ <!-- END CDN/JS --> 
     </body>
 </html>

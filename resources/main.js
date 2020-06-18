@@ -1,27 +1,11 @@
-// TOGGLE MOBILE MENU
-const toggleMenu = () => {
-    let burger = document.querySelector('.burger');
-    let nav = document.querySelector('.nav-links');
-    let links = document.querySelectorAll('.nav-links-mobile li')
-    //TOGGLE NAV
-    burger.addEventListener('click', () => {
-        nav.classList.toggle('nav-links-mobile');
-
-    //BURGER ANIMATION
-    burger.classList.toggle('toggle');
-
-    //LINK ANIMATIONS
-        links.forEach((link, index) => {
-            if (link.style.animation) {
-                link.style.animation = '';
-            } else [
-                link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 2}s`
-            ]
-        });
-        
-    });
+//Animations
+const hero = document.querySelector('.hero');
+const slider = document.querySelector('.slider');
+const logo = document.querySelector('.logo');
+const hamburger = document.querySelector('.hamburger');
+const headline = document.querySelector('.text__container');
 
 
-}
-toggleMenu();
+const tl = new TimelineMax();
 
+tl.fromTo(hero,1, {height: "0%"}, {height: "80%"})
