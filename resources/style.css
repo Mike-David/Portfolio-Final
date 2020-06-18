@@ -403,7 +403,79 @@ hr {
     transition-delay: 1s;
 }
 
+/* Services/About Me */
 
+.services__section {
+  width: 100%;
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  align-items: flex-start;
+  -webkit-align-items: flex-start;
+  -moz-align-items: flex-start;
+  -ms-align-items: flex-start;
+  justify-content: flex-start;
+  -webkit-justify-content: flex-start;
+  -moz-justify-content: flex-start;
+  -ms-justify-content: flex-start;
+  -ms-flex-pack: flex-start;
+  margin-top: 250px;
+  margin-bottom: 250px;
+}
+
+.main__service--container {
+  max-width: 1154px;
+    margin-left: 143px;
+    margin-right: 143px;
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
+    -moz-align-items: flex-start;
+    -ms-align-items: flex-start;
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+    -moz-justify-content: flex-start;
+    -ms-justify-content: flex-start;
+    -ms-flex-pack: flex-start;
+}
+
+.service__text {
+  font-size: 18px;
+  line-height: 24px;
+  font-family: 'Manrope', sans-serif;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.service__heading {
+  font-size: 72px;
+    line-height: 88px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    color: #131415;
+    margin-bottom: 40px;
+}
+
+.serivce__sub--text {
+  font-size: 19px;
+    line-height: 32px;
+    font-family: 'Manrope', sans-serif;
+    color: #6f6f6f;
+}
 
 
 
