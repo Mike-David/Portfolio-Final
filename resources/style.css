@@ -258,9 +258,21 @@ hr {
 
 .home__column {
   display: flex;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
   flex-direction: column;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
   align-items: flex-start;
+  -webkit-align-items: flex-start;
+  -moz-align-items: flex-start;
+  -ms-align-items: flex-start;
   justify-content: flex-start;
+  -webkit-justify-content: flex-start;
+  -moz-justify-content: flex-start;
+  -ms-justify-content: flex-start;
 }
 
 .home__overlay {
