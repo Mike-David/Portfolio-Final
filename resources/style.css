@@ -295,7 +295,7 @@ hr {
   position: relative;
   overflow: hidden;
   height: 100%;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 
 .home__column--item img {
@@ -474,6 +474,94 @@ hr {
     line-height: 32px;
     font-family: 'Manrope', sans-serif;
     color: #6f6f6f;
+}
+
+/* PORJECT GRID */
+
+.projects__grid {
+  display: grid;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.grid__item {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 5vw)
+}
+
+.grey__box {
+  width: 100%;
+  height: 100%;
+  background: #e3e3e3;
+  grid-column-start: 3;
+  grid-column-end: 8;
+  grid-row-start: 2;
+  grid-row-end: 6;
+  margin-left: 60px;
+}
+
+.image__box--one {
+  width: 100%;
+  height: 100%;
+  grid-column-start: 7;
+  grid-column-end: 11;
+  grid-row-start: 1;
+  grid-row-end: 8;
+}
+
+.image__box--one img {
+  width: 100%;
+  height: 100%;
+ object-fit: cover;
+ object-position: center;
+}
+
+.image__box--two {
+  width: 100%;
+  height: 100%;
+  grid-column-start: 3;
+  grid-column-end: 7;
+  grid-row-start: 4;
+  grid-row-end: 8;
+}
+
+.image__box--two img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+
+}
+
+.image__box--three {
+  width: 100%;
+  height: 100%;
+  grid-column-start: 3;
+  grid-column-end: 11;
+  grid-row-start: 8;
+  grid-row-end: 12;
+}
+
+.image__box--three img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.grey__box__bottom {
+  width: 100%;
+  height: 100%;
+  background: #e3e3e3;
+  grid-column-start: 4;
+  grid-column-end: 11;
+  grid-row-start: 8;
+  grid-row-end: 12;
+  z-index: -1;
+  margin-top: 40px;
+  margin-left: 40px;
 }
 
 
