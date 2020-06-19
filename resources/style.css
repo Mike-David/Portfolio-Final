@@ -133,8 +133,7 @@ hr {
     font-family: 'Manrope', sans-serif;
     font-size: 5.8125vw;
     font-weight: 800;
-    line-height: 6vw;
-    
+    line-height: 6vw;   
 }
 
 
@@ -518,6 +517,23 @@ hr {
  object-position: center;
 }
 
+.text__box--one {
+  width: 100%;
+  height: 100%;
+  grid-column-start: 6;
+  grid-column-end: 11;
+  grid-row-start: 1;
+  grid-row-end: 8;
+}
+
+.text__box--one h1 {
+    color: black;
+    font-family: 'Manrope', sans-serif;
+    font-size: 4vw;
+    font-weight: 800;
+    line-height: 6vw;   
+}
+
 .image__box--two {
   width: 100%;
   height: 100%;
@@ -533,6 +549,44 @@ hr {
   object-fit: cover;
   object-position: center;
 
+}
+
+.text__box--two {
+  width: 100%;
+  height: 100%;
+  grid-column-start: 3;
+  grid-column-end: 8;
+  grid-row-start: 3;
+  grid-row-end: 8;
+  margin-top: 13px;
+  margin-left: 17px;
+}
+
+.text__box--two h1 {
+    color: black;
+    font-family: 'Manrope', sans-serif;
+    font-size: 4vw;
+    font-weight: 800;
+    line-height: 6vw;   
+}
+
+.text__box--three {
+  width: 100%;
+  height: 100%;
+  grid-column-start: 3;
+  grid-column-end: 8;
+  grid-row-start: 11;
+  grid-row-end: 12;
+  margin-left: 17px;
+  z-index: 2;
+}
+
+.text__box--three h1 {
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 4vw;
+    font-weight: 800;
+    line-height: 6vw;   
 }
 
 .image__box--three {
